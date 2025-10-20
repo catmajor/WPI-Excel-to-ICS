@@ -14,7 +14,6 @@ for (const [key, cell] of Object.entries(table.Sheets.Sheet1)) {
     inEnrolled = row + 2;
   } 
 }
-console.log(cleaned);
 
 // generate-ics-from-cells.js
 // Node script: paste your JSON into the `cells` variable below, run `node generate-ics-from-cells.js`
